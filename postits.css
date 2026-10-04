@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef5ff;
+    margin: 0;
+    padding: 30px;
+    color: #172554;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #ccd6e0;
+}
+
+h1 {
+    text-align: center;
+    color: #1456c3;
+    font-size: 42px;
+}
+
+.box {
+    border: 1px solid #d8e2ef;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #f8fbff;
+}
+
+h2 {
+    color: #1461d2;
+}
+
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 90px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #1769e0;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0d55bc;
+}
+
+.post {
+    background: white;
+    border: 1px solid #d8e2ef;
+    padding: 16px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+
+.original {
+    color: #1456c3;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.encrypted-title {
+    color: #1456c3;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.encrypted {
+    background: #edf4fc;
+    padding: 12px;
+    border: 1px solid #d5e1ef;
+    border-radius: 7px;
+    word-break: break-all;
+    font-family: monospace;
+    font-size: 13px;
+}
