@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Posting with AES 192</title>
+    <link rel="stylesheet" href="postit.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Social Media Post</h1>
+    <div class="box" id="welcomeBox">
+        <h2>Welcome!</h2>
+
+        <input type="text" id="name" placeholder="Enter your name">
+        <button onclick="continueUser()">Continue</button>
+    </div>
+    <div class="box" id="postBox" style="display:none;">
+
+        <h2>Post Something</h2>
+        <p>Welcome, <b id="user"></b>!</p>
+        <textarea id="post" placeholder="Write your caption here..."></textarea>
+        <button onclick="makePost()">Post</button>
+
+        <div id="posts"></div>
+
+    </div>
+
+</div>
+
+<script src="postit.js"></script>
+</body>
+</html>
